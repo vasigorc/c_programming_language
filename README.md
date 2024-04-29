@@ -9,12 +9,12 @@ This part of README doument is likely to change over time. For now, I am using `
 am simply compiling the file that I want to run one by one, like so:
 
 ```c
-cc hello.c
+cc -o hello hello.c
 ```
 
-This will produce a binary machine code executable that you can execute, e.g.:
+This will produce a binary machine code executable `hello` that you can execute, e.g.:
 
 
 ```shell
-./a.out
+./hello
 ```
