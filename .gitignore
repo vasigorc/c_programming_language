@@ -1,1 +1,4 @@
 *.out
+
+# machine code object files generated with `make`
+*.o 
